@@ -1,2 +1,2 @@
-# Digidon727.github.io
+# Тихонов Иван
 homework

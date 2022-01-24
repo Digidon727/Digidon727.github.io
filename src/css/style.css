@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+
+h1{
+  font-size: 59px; 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #2c384a;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+ul, li{
+    display: block;
+    margin: 0;
+    
+ }
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+header{
+    background-image: url("../img/bg.jpg");
+}
+.header {
+    background: #344051;
+    padding: 25px 0;
+    color: #fff;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    border: 1px solid red;  
+}
+
+.logo{
+    font-size: 26px;    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+}
+
+.menu li{
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+
+main{
+   width: 100%;
+   background: url(../img/bg.png) no-repeat center;
+
+}
+.main-text{
+    padding-top: 430px;
+    padding-bottom: 295px;
+    width: 490px;
+    text-align: center;
+}
+
+.main-text p{
+    font-size: 18px;
+    color: #a3a8b1;
+    margin-bottom: 55px;
+}
+
+.btn{
+    color: #6d7682;
+    border: 1px solid #6d7682;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 42px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: #cde0fb;
+    color: #000;
+}
+
+/*Обо мне*/
+
+.about-me{
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+.len{
+    
+    width: 70px;
+    height: 5px;
+    background: chocolate;
+    text-align: center;
+    position: relative;
+    margin:0 auto;
+}
+
+
+.my-img{
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.my-text{
+    margin:0 auto;
+    width: 700px;
+}
+.my-text p{
+    margin-bottom: 40px;
+}
+.btn-donwlo{
+    color: #6d7682;
+    border: 1px solid #6d7682;
+    padding: 5px;
+    border-radius: 5px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.download-img{
+    margin-right: 7px;
+    
+}

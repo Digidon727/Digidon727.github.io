@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width= , initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    
     <title>Document</title>
 </head>
 <body>
@@ -11,10 +17,10 @@
 <!-- Шапка сайта-->
     <header class="header" id="header">
         <div class="container">
-            <nav>
+            <nav class="nav">
                 <div class="logo">Андрей Браун</div> 
-                <div class="menu">
-                    <ul>
+                <div>
+                    <ul class="menu">
                         <li><a href="#">ОБО МНЕ</a></li>
                         <li><a href="#">УСЛУГИ</a></li>
                         <li><a href="#">КЕЙСЫ </a></li>
@@ -26,37 +32,40 @@
             </nav>
         </div>
     </header>
-    <hr>
-
     <!--Первый экран-->
     <main class="main" id="main">
         <div class="container">
             <div class="main-text">
                 <h1>Привет <br>Я Андрей Браун</h1>
                 <p>Фулл стек веб - разработчик и Android - разработчик</p>
-                <input type="submit" value="Обо мне">
-                <input type="submit" value="Мои работы">
+                <a href="#" class="btn">Обо мне</a>
+                <a href="#"  class="btn">Мои работы</a>
             </div>
         </div>
     </main>
-    <hr>
+  
 
     <!--Обо мне -->
     <section class="about-me">
         <div class="container">
             <div class="offer">
                 <h2>Обо мне</h2>
-                <img src="#" alt="my-img">
-                <p class="my-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante <br>
-                    facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.
-                </p>
-                <p class="my-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante <br>
-                    facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.
-                </p>
-                <!--<a href="#">Скачать резюме</a>    Сделать через тег <a> в будущем-->
-                <input type="submit" value="Скачать резюме">
+                <div class="len"></div>
+                <div class="my-img"><img src="./img/boy-1.png" alt="my-img"></div>
+                
+                <div class="my-text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante
+                        facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.
+                    </p>
+                    <p >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante
+                        facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.
+                    </p>
+                </div>
+        
+                <a href="#" class="btn-donwlo"> <img src="./img/download.png" alt="download-img" class="download-img" >Скачать резюме</a> 
+            
             </div>
         </div>
     </section>

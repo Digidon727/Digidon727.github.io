@@ -8,3 +8,4 @@
 
 - Введите следующий путь в строке URL https://digidon727.github.io/src
 - Далее нажмите Enter
+- Или прямая ссылка на ДЗ -> [перейти на страницу ДЗ](https://digidon727.github.io/src)

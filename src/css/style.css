@@ -229,10 +229,6 @@ main{
 /*расчет стоимости*/
 
 
-.list{
-
-}
-
 /*Немного статистики*/
 .statistics{
     background: url('../img/bg2.png') no-repeat;
@@ -265,7 +261,6 @@ main{
 .reviews-1 p{
     margin: 30px 0;
 }
-
 
 /*Контакты*/
 .my-contacts{
@@ -331,7 +326,6 @@ main{
     padding-top: 150px;
     font-size: 30px;
 }
-
 
 /*Footer*/
 
